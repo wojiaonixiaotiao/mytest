@@ -11,6 +11,6 @@ public class Test {
 	private String bucket = "truckloads-files-test";
 	@RequestMapping(value = "forum/test", method = RequestMethod.GET)
 	public String myTest() {
-		return bucket;
+		return  bucket;
 	}
 }
