@@ -1,0 +1,12 @@
+package com.truckerpath.zyhtest.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Test {
+	@RequestMapping(value = "tp/trucksetting", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	public void myTest() {
+	}
+}
